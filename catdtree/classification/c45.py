@@ -1,8 +1,6 @@
 from catdtree import BaseDecisionTree
 from scipy import stats
 
-# TODO: stopping criterion - limit information gain; limit depth, other?
-
 
 class C45(BaseDecisionTree):
     """C4.5 decision tree for classification.
